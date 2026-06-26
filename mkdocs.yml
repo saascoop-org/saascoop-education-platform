@@ -1,0 +1,26 @@
+site_name: SaaSCoop Education Platform
+site_description: Open source education platform for SaaSCoop courses.
+site_url: https://saascoop-org.github.io/saascoop-education-platform/
+repo_url: https://github.com/saascoop-org/saascoop-education-platform
+repo_name: saascoop-org/saascoop-education-platform
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Vision: vision.md
+  - Architecture: architecture.md
+  - Roadmap: roadmap.md
+  - Learning Paths: learning-paths.md
+  - Course Catalog: course-catalog.md
+  - Governance: governance.md
+  - ADRs:
+      - ADR-0001: adr/ADR-0001-education-platform-architecture.md
